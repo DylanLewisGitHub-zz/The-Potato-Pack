@@ -16,7 +16,7 @@ The Potato Pack is a data pack for Minecraft: Java Edition that adds new content
 
 ![GitHub release](https://img.shields.io/github/release/DylanLewisGitHub/The-Potato-Pack.svg)
 
-The latest releases of Sodium are published to our [Data Pack Center](https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
+The latest releases of The Potato Pack are published to the [Data Pack Center](https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
 [GitHub release](https://github.com/DylanLewisGitHub/The-Potato-Pack/releases) pages. Releases are considered to be
 **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
 
