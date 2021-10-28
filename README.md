@@ -62,4 +62,4 @@ I have a [Discord server](https://discord.gg/mGVvUHRNUR) for all of my projects.
 ### License
 
 The Potato Pack is licensed under GNU GPLv3, a free and open-source license. For more information, please see the
-[license file](https://github.com/DylanLewisGitHub/The-Potato-Pack/LICENSE.txt).
+[license file](https://github.com/DylanLewisGitHub/The-Potato-Pack/blob/main/LICENSE).
