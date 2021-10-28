@@ -20,7 +20,7 @@ You will need Minecraft 1.18 or higher to use this data pack.
 ![GitHub release](https://img.shields.io/github/release/DylanLewisGitHub/The-Potato-Pack.svg)
 
 The latest releases of Sodium are published to our [Data Pack Center](https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
-[GitHub release](https://github.com/CaffeineMC/sodium-fabric/releases) pages. Releases are considered to be
+[GitHub release](https://github.com/DylanLewisGitHub/The-Potato-Pack/releases) pages. Releases are considered to be
 **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
 
 Usually, releases will be made available on GitHub slightly sooner than other locations.
