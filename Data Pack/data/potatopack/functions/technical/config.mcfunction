@@ -1,7 +1,7 @@
 ####################################################################
 # IMPORTANT: Specify the world seed BEFORE using the Slime Chunk Check
-scoreboard players set seedHigh potatopack.slime_chunk_check.math -401633671
-scoreboard players set seedLow potatopack.slime_chunk_check.math 1351591154
+scoreboard players set seedHigh potatopack.slime_chunk_check.math 0
+scoreboard players set seedLow potatopack.slime_chunk_check.math 0
 ####################################################################
 
 # Hide pack names in item tooltips (0: False, 1: True)
@@ -11,4 +11,4 @@ scoreboard players set hidePackName potatopack.config 0
 scoreboard players set toggleDepthMeter potatopack.config 0
 
 # Show your X and Z coords while looking down at a map (0: False, 1: True)
-scoreboard players set showMapCoords potatopack.config 1
+scoreboard players set showMapCoords potatopack.config 0
