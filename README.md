@@ -13,8 +13,6 @@ The Potato Pack is a data pack for Minecraft: Java Edition that adds new content
 
 ## Installation
 
-### Manual installation (recommended)
-
 You will need Minecraft 1.18 or higher to use this data pack.
 
 #### Stable releases
@@ -49,63 +47,22 @@ we will expect that this is the case. Caveat emptor.
 
 ### Reporting Issues
 
-You can report bugs and crashes by opening an issue on our [issue tracker](https://github.com/CaffeineMC/sodium-fabric/issues).
+You can report bugs and crashes by opening an issue on our [issue tracker](https://github.com/DylanLewisGitHub/The-Potato-Pack/issues).
 Before opening a new issue, use the search tool to make sure that your issue has not already been reported and ensure
 that you have completely filled out the issue template. Issues that are duplicates or do not contain the necessary
 information to triage and debug may be closed. 
 
 Please note that while the issue tracker is open to feature requests, development is primarily focused on
-improving hardware compatibility, performance, and finishing any unimplemented features necessary for parity with
-the vanilla renderer.
+bug-fixing, compatibility, performance, and finishing any unimplemented features.
 
 ### Community
-[![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://jellysquid.me/discord)
+[![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/mGVvUHRNUR)
 
-We have an [official Discord community](https://jellysquid.me/discord) for all of our projects. By joining, you can:
-- Get installation help and technical support with all of our mods 
+We have an [official Discord community](https://discord.gg/mGVvUHRNUR) for all of our projects. By joining, you can:
+- Get technical support with all of my projects
 - Be notified of the latest developments as they happen
-- Get involved and collaborate with the rest of our team
+- Get involved and collaborate
 - ... and just hang out with the rest of our community.
-
----
-
-### Building from sources
-
-Support is not provided for setting up build environments or compiling the mod. We ask that
-users who are looking to get their hands dirty with the code have a basic understanding of compiling Java/Gradle
-projects. The basic overview is provided here for those familiar.
-
-#### Requirements
-
-- JRE 8 or newer (for running Gradle)
-- JDK 8 (optional)
-  - If you neither have JDK 8 available on your shell's path or installed through a supported package manager (such as
-[SDKMAN](https://sdkman.io)), Gradle will automatically download a suitable toolchain from the [AdoptOpenJDK project](https://adoptopenjdk.net/)
-and use it to compile the project. For more information on what package managers are supported and how you can
-customize this behavior on a system-wide level, please see [Gradle's Toolchain user guide](https://docs.gradle.org/current/userguide/toolchains.html).
-- Gradle 6.7 or newer (optional)
-  - The [Gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:using_wrapper) is provided in
-    this repository can be used instead of installing a suitable version of Gradle yourself. However, if you are building
-    many projects, you may prefer to install it yourself through a suitable package manager as to save disk space and to
-    avoid many different Gradle daemons sitting around in memory.
-
-#### Building with Gradle
-
-Sodium uses a typical Gradle project structure and can be built by simply running the default `build` task. After Gradle
-finishes building the project, you can find the build artifacts (typical mod binaries, and their sources) in
-`build/libs`.
-
-**Tip:** If this is a one-off build, and you would prefer the Gradle daemon does not stick around in memory afterwards,
-try adding the [`--no-daemon` flag](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon)
-to ensure that the daemon is torn down after the build is complete. However, subsequent builds of the project will
-[start more slowly](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:why_the_daemon) if the Gradle
-daemon is not available to be re-used.
-
-
-Build artifacts ending in `dev` are outputs containing the sources and compiled classes
-before they are remapped into stable intermediary names. If you are working in a developer environment and would
-like to add the mod to your game, you should prefer to use the `modRuntime` or `modCompile` configurations provided by
-Loom instead of these outputs.
 
 ---
 ### License
