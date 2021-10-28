@@ -1,0 +1,170 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:2}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 0
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:3}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.not_in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.not_in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 0
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,656 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:2}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/ground"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:3}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/cave"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:4}",
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:item/depth_meter/modify_visual/lava"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:entity/location/nether/in_dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:5}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/sky"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:6}",
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:entity/location/in_end"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:entity/location/in_void"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_above_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/several_blocks_above_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_above_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/block_above_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.at_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/at_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_below_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/block_below_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_below_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/several_blocks_below_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_above_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/several_blocks_above_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_above_sea_level",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/block_above_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.at_sea_level",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/at_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_below_sea_level",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/block_below_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_below_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/location/several_blocks_below_sea_level"
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Y:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.position_y"
+          },
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Y:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.position.y"
+          },
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "toggleDepthMeter"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 1
+      },
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "hidePackName"
+          },
+          "score": "potatopack.config"
+        },
+        "range": 0
+      }
+    ]
+  }
+]

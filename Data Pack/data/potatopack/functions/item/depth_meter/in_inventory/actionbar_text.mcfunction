@@ -1,0 +1,11 @@
+execute as @s[predicate=potatopack:entity/location/several_blocks_above_sea_level] run data modify storage abcl:storage temp.message set value {Message: '["",{"score":{"name":"@s","objective":"potatopack.blocks_from_sea_level"}},{"translate":"item.potatopack.depth_meter.blocks_above_sea_level"}]', Priority: 2, ClearImmediately: 1b}
+execute as @s[predicate=potatopack:entity/location/block_above_sea_level] run data modify storage abcl:storage temp.message set value {Message: '{"translate":"item.potatopack.depth_meter.block_above_sea_level"}', Priority: 2, ClearImmediately: 1b}
+execute as @s[predicate=potatopack:entity/location/at_sea_level] run data modify storage abcl:storage temp.message set value {Message: '{"translate":"item.potatopack.depth_meter.at_sea_level"}', Priority: 2, ClearImmediately: 1b}
+execute as @s[predicate=potatopack:entity/location/block_below_sea_level] run data modify storage abcl:storage temp.message set value {Message: '{"translate":"item.potatopack.depth_meter.block_below_sea_level"}', Priority: 2, ClearImmediately: 1b}
+execute as @s[predicate=potatopack:entity/location/several_blocks_below_sea_level] run data modify storage abcl:storage temp.message set value {Message: '["",{"score":{"name":"@s","objective":"potatopack.blocks_from_sea_level"}},{"translate":"item.potatopack.depth_meter.blocks_below_sea_level"}]', Priority: 2, ClearImmediately: 1b}
+
+execute as @s[predicate=potatopack:entity/location/in_end] run data modify storage abcl:storage temp.message set value {Message: '{"translate":"item.potatopack.depth_meter.in_end"}', Priority: 2, ClearImmediately: 1b}
+execute as @s[predicate=potatopack:entity/location/in_void] run data modify storage abcl:storage temp.message set value {Message: '{"translate":"item.potatopack.depth_meter.in_void"}', Priority: 2, ClearImmediately: 1b}
+
+execute if score toggleDepthMeter potatopack.config matches 1 run data modify storage abcl:storage temp.message set value {Message: '["","Y:",{"score":{"name":"@s","objective":"potatopack.position.y"}}]', Priority: 2, ClearImmediately: 1b}
+execute as @s run function abcl:message/check

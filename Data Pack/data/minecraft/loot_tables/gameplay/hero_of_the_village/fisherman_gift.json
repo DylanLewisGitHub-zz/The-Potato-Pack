@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:headwear/biomes_from_villager",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager/can_offer_biome_headwear"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/headwear/paleontologist_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/level/5"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"dnd.paleontologist\"]}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/headwear/fishing_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/level/5"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"dnd.paleontologist\"]}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/eroded_fossil"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:villager",
+            "nbt": "{Tags:[\"dnd.paleontologist\"]}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"dnd.paleontologist\"]}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

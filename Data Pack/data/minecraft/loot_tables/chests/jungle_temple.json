@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/totem_of_shielding"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:chests/jungle_temple/equipment"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:chests/jungle_temple/jewels"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "minecraft:chests/jungle_temple_dispenser"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:chests/jungle_temple/resources"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:chests/corpse/any",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "facing": "north"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "state": {
+                        "facing": "west"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:chests/jungle_temple/building_blocks"
+        }
+      ]
+    }
+  ]
+}

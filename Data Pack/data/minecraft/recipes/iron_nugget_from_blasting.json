@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:chain"
+    },
+    "result": "minecraft:iron_nugget",
+	"count": 3,
+    "experience": 0.1,
+    "cookingtime": 100,
+    "group": "potatopack:iron_nugget"
+}

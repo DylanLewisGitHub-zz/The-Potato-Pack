@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:headwear/biomes_from_villager",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager/can_offer_biome_headwear"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/headwear/shepherd_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/level/5"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_wool"
+        }
+      ]
+    }
+  ]
+}

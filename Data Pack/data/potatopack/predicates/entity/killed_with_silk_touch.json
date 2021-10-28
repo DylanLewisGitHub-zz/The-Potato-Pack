@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:damage_source_properties",
+  "predicate": {
+    "source_entity": {
+      "equipment": {
+        "mainhand": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

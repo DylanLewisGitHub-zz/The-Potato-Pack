@@ -1,0 +1,295 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:headwear/biomes_from_villager",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager/can_offer_biome_headwear"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/headwear/fletcher_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/level/5"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 26,
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:swiftness\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:slowness\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strength\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:healing\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:harming\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:leaping\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:regeneration\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water_breathing\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:invisibility\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:weakness\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

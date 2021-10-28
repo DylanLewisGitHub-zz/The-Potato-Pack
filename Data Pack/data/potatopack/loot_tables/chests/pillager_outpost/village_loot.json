@@ -1,0 +1,240 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_weaponsmith"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_toolsmith",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/desert"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/taiga"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_temple",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/desert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_tannery",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/snowy_plains"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/savanna"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/taiga"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/meadow"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/plains"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "minecraft:chests/village/village_taiga_house",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/taiga"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "minecraft:chests/village/village_snowy_house",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/snowy_plains"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_shepherd",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/snowy_plains"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "minecraft:chests/village/village_savanna_house",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/savanna"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "minecraft:chests/village/village_plains_house",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/meadow"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/plains"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_mason",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/savanna"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_fletcher",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/taiga"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_fisher",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/plains"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "minecraft:chests/village/village_desert_house",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/desert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_cartographer",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/plains"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/meadow"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/taiga"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/savanna"
+                },
+                {
+                  "condition": "minecraft:reference",
+                  "name": "potatopack:location_check/biome/snowy_plains"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_butcher",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/savanna"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/village/village_armorer",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/snowy_plains"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

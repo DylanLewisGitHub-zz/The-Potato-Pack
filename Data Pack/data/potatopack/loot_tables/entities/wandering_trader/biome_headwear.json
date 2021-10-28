@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/desert_cap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/leaf_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/winter_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/wreath"
+        }
+      ]
+    }
+  ]
+}

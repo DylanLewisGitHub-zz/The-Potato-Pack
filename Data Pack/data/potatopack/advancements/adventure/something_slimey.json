@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:armor_stand",
+      "nbt": "{CustomModelData:4}"
+    },
+    "title": {
+      "translate": "advancements.adventure.something_slimey.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.something_slimey.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "in_slime_chunk": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

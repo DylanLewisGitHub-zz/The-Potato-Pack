@@ -1,0 +1,2 @@
+execute unless block ~ ~-1 ~ #potatopack:full_blocks run function potatopack:block/totem_of_shielding/break
+execute unless block ~ ~ ~ #potatopack:air run function potatopack:block/totem_of_shielding/break

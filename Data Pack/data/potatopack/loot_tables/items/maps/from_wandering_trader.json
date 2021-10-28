@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "potatopack:items/maps/located_structure/new/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "potatopack:items/maps/located_structure/unidentified/new/any"
+        }
+      ]
+    }
+  ]
+}

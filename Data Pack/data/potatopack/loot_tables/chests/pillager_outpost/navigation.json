@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/super_secret_hideout"
+        }
+      ]
+    }
+  ]
+}

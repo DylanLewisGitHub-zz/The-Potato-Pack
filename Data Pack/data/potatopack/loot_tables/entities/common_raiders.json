@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Wave:0}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

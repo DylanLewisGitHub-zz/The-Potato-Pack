@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 32
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 24
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_log"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 40
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_log"
+        }
+      ]
+    }
+  ]
+}

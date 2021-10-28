@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/eye_patch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/fletcher_cap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/shepherd_cap"
+        }
+      ]
+    }
+  ]
+}

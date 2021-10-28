@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/from_shipwreck"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 10,
+                "type": "minecraft:uniform"
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5,
+                "type": "minecraft:uniform"
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5,
+                "type": "minecraft:uniform"
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

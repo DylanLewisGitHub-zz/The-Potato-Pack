@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:headwear/biomes_from_villager",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager/can_offer_biome_headwear"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/headwear/book_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/level/5"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book"
+        }
+      ]
+    }
+  ]
+}

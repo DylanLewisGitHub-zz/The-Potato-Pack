@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "unequip_headwear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flower_banner_pattern"
+            ],
+            "nbt": "{potatopack:{id:\"headwear\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "potatopack:item/headwear/unequip/start"
+  }
+}

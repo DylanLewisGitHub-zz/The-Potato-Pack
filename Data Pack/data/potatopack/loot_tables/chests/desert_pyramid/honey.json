@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/crystallised_honey"
+        }
+      ]
+    }
+  ]
+}

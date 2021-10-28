@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bee_nest",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "ArmorItems[3].tag",
+                  "target": "{}",
+                  "op": "merge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{potatopack:{id:\"entity_death\",entity:\"zombie_with_bee_nest\",type:\"with_silk_touch\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "potatopack:entity/killed_with_silk_touch"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

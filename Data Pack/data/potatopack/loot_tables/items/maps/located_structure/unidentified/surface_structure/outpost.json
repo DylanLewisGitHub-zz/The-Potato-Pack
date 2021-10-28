@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "pillager_outpost",
+              "decoration": "red_x",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.located_surface_structure"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

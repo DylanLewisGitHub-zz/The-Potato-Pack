@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.potatopack",
+                  "color": "aqua",
+                  "italic": true
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "hidePackNames"
+                    },
+                    "score": "potatopack.config"
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "item.potatopack.chieftain_banner",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,potatopack:{id:\"chieftain_banner\"},EntityTag:{Pose:{Head:[0.0f,0.0f,0.0f],Body:[0.0f,0.0f,0.0f]},DisabledSlots:4144959,Invisible:1b,NoGravity:1b,Tags:[\"potatopack.block.chieftain_banner\"],ArmorItems:[{},{},{},{id:\"minecraft:egg\",Count:1b,tag:{CustomModelData:2}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

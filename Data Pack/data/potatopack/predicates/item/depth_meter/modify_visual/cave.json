@@ -1,0 +1,16 @@
+[
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "potatopack.position.y": {
+        "min": 17,
+        "max": 62
+      }
+    }
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "potatopack:entity/location/overworld/in_dimension"
+  }
+]

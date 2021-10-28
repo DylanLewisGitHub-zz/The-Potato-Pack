@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/pyramid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/igloo"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/temple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/outpost"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/hut"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/village"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/mansion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/ruin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/shipwreck"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/structure/monument"
+        }
+      ]
+    }
+  ]
+}

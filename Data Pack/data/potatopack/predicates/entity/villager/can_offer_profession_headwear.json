@@ -1,0 +1,51 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "potatopack:entity/villager_data/level/5"
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/armorer"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/butcher"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/cartographer"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/farmer"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/fisherman"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/fletcher"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/fletcher"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/librarian"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/shepherd"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/villager_data/profession/weaponsmith"
+      }
+    ]
+  }
+]

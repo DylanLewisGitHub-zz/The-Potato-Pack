@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "#potatopack:item_frames",
+    "nbt": "{Item:{tag:{potatopack:{id:\"chieftain_banner\"}}}}"
+  }
+}

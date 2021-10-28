@@ -1,0 +1,27 @@
+{
+  "values": [
+	"minecraft:armor_stand",
+	"minecraft:bee",
+	"minecraft:donkey",
+	"minecraft:drowned",
+	"minecraft:glow_item_frame",
+	"minecraft:husk",
+	"minecraft:item",
+	"minecraft:item_frame",
+	"minecraft:llama",
+	"minecraft:mule",
+	"minecraft:piglin",
+	"minecraft:piglin_brute",
+	"minecraft:player",
+	"minecraft:skeleton",
+	"minecraft:slime",
+	"minecraft:stray",
+	"minecraft:trader_llama",
+	"minecraft:villager",
+	"minecraft:wandering_trader",
+	"minecraft:wither_skeleton",
+	"minecraft:zombie",
+	"minecraft:zombie_villager",
+	"minecraft:zombified_piglin"
+  ]
+}

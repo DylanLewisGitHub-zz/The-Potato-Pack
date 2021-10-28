@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:porkchop",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/hoglin_hide"
+        }
+      ]
+    }
+  ]
+}

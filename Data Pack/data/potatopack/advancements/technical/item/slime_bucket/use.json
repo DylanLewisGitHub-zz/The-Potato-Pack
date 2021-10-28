@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt": "{potatopack:{id:\"slime_bucket\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "potatopack:item/slime_bucket/use"
+  }
+}

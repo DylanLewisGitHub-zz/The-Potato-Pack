@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "#potatopack:can_wear_chest",
+    "nbt": "{Items:[{tag:{potatopack:{id:\"slime_bucket\"}}}]}"
+  }
+}

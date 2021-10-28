@@ -1,0 +1,1 @@
+execute as @a[tag=abcl.scheduled,scores={abcl.leaves=1..}] run function abcl:message/scheduled_tardy

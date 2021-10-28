@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{potatopack:{id:\"entity_death\",entity:\"zombie_with_bee_nest\",type:\"without_silk_touch\"}}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "ArmorItems[3].tag",
+                  "target": "potatopack",
+                  "op": "merge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:shears"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

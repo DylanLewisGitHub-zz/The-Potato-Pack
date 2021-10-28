@@ -1,0 +1,4 @@
+execute as @s[predicate=potatopack:entity/zombie/with_bee_nest/spawn/plains] run function potatopack:entity/zombie/with_bee_nest/merge_data
+execute as @s[tag=!potatopack.entity.spawned,predicate=potatopack:entity/zombie/with_bee_nest/spawn/flower_forest] run function potatopack:entity/zombie/with_bee_nest/merge_data
+execute as @s[tag=!potatopack.entity.spawned,predicate=potatopack:entity/zombie/with_bee_nest/spawn/forests] run function potatopack:entity/zombie/with_bee_nest/merge_data
+execute as @s[tag=!potatopack.entity.spawned,predicate=potatopack:entity/zombie/with_bee_nest/spawn/meadow] run function potatopack:entity/zombie/with_bee_nest/merge_data

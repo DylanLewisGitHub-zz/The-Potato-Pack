@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "item.potatopack.crystallised_honey",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "pack.potatopack",
+                  "color": "aqua",
+                  "italic": true
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "hidePackNames"
+                    },
+                    "score": "potatopack.config"
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,potatopack:{id:\"crystallised_honey\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

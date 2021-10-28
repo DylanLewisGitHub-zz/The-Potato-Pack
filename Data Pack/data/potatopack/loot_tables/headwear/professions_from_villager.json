@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/book_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/librarian"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/eye_patch",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/weaponsmith"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/fishing_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/fisherman"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/fletcher_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/fletcher"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/monocle",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/cartographer"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/paleontologist_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/paleontologist"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/ribbon",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/butcher"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/shepherd_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/shepherd"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/straw_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/farmer"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/visor",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/armorer"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:headwear/professions_from_leatherworker",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/profession/leatherworker"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

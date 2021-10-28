@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/desert_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/type/desert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/leaf_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/type/swamp"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/winter_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/type/snow"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/headwear/wreath",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:entity/villager_data/type/savanna"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

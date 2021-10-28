@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:2}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 0
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:3}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      }
+    ]
+  }
+]

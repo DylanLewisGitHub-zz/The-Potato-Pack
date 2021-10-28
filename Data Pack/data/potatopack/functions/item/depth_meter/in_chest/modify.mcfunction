@@ -1,0 +1,15 @@
+item modify entity @s[nbt={Items:[{Slot:2b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.0 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:3b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.1 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:4b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.2 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:5b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.3 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:6b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.4 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:7b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.5 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:8b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.6 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:9b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.7 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:10b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.8 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:11b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.9 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:12b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.10 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:13b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.11 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:14b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.12 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:15b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.13 potatopack:depth_meter/gui
+item modify entity @s[nbt={Items:[{Slot:16b,tag:{potatopack:{id:"depth_meter"}}}]}] horse.14 potatopack:depth_meter/gui

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/building_blocks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/enchanting"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/jewels"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/honey"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/corpse"
+        }
+      ]
+    }
+  ]
+}

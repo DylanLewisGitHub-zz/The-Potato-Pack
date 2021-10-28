@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:entities/zombie/with_bee_nest/with_silk_touch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "potatopack:entity/killed_with_silk_touch"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:entities/zombie/with_bee_nest/without_silk_touch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:reference",
+            "name": "potatopack:entity/killed_with_silk_touch"
+          }
+        }
+      ]
+    }
+  ]
+}

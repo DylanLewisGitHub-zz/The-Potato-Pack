@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "potatopack:location_check/biome/jungles"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {IsBaby:0b,Silent:1b,Tags:[potatopack.entity.spawned,potatopack.entity.zombie.with_bee_nest],ArmorDropChances:[0.085f,0.085f,0.085f,-327.67f],ArmorItems:[{},{},{},{id:"minecraft:bee_nest",Count:1b}],Attributes:[{Name:generic.follow_range,Base:0}]}

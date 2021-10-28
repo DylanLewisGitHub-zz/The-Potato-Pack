@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/maps/located_structure/unidentified/ocean_structure/ruin"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "potatopack:items/maps/located_structure/unidentified/ocean_structure/shipwreck"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "potatopack:items/maps/located_structure/unidentified/ocean_structure/monument"
+        }
+      ]
+    }
+  ]
+}

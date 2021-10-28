@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword"
+        }
+      ]
+    }
+  ]
+}

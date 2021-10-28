@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:entity/armor_stand/is_chieftain_banner"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:entity/player/holding_chieftain_banner"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:entity/item/is_chieftain_banner"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:entity/item_frames/framed_chieftain_banner"
+    }
+  ]
+}

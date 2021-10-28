@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/located_structure/unidentified/new/ocean_structure/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/located_structure/unidentified/new/settlement/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/located_structure/unidentified/new/structure/any"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:items/maps/located_structure/unidentified/new/surface_structure/any"
+        }
+      ]
+    }
+  ]
+}

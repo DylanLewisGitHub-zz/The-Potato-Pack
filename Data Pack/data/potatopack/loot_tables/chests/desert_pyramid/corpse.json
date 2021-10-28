@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/desert_pyramid/jewels"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "potatopack:chests/corpse/any"
+        }
+      ]
+    }
+  ]
+}

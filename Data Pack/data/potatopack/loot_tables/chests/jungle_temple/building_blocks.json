@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 40
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone"
+        }
+      ]
+    }
+  ]
+}

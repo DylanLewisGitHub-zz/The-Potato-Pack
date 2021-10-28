@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "black_dye",
+  "ingredients": [
+    {
+      "tag": "potatopack:black_dye_ingredients"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye"
+  }
+}

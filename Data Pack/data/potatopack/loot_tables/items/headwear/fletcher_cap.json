@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.potatopack",
+                  "color": "aqua",
+                  "italic": true
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "hidePackName"
+                    },
+                    "score": "potatopack.config"
+                  },
+                  "range": 0
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "item.potatopack.headwear.fletcher_cap",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:38,AttributeModifiers:[],CustomModelData:840005,potatopack:{id:\"headwear\",headwear:\"fletcher_cap\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
