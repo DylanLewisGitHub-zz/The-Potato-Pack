@@ -19,7 +19,7 @@ You will need Minecraft 1.18 or higher to use this data pack.
 
 ![GitHub release](https://img.shields.io/github/release/DylanLewisGitHub/The-Potato-Pack.svg)
 
-The latest releases of Sodium are published to our [Data Pack Center]https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
+The latest releases of Sodium are published to our [Data Pack Center](https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
 [GitHub release](https://github.com/CaffeineMC/sodium-fabric/releases) pages. Releases are considered to be
 **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
 
@@ -52,11 +52,11 @@ bug-fixing, compatibility, performance, and finishing any unimplemented features
 ### Community
 [![Discord chat](https://img.shields.io/badge/chat%20on-discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/mGVvUHRNUR)
 
-We have an [official Discord community](https://discord.gg/mGVvUHRNUR) for all of our projects. By joining, you can:
+I have a [Discord server](https://discord.gg/mGVvUHRNUR) for all of my projects. By joining, you can:
 - Get technical support with all of my projects
 - Be notified of the latest developments as they happen
 - Get involved and collaborate
-- ... and just hang out with the rest of our community.
+- ... and just hang out with the rest of the community.
 
 ---
 ### License
