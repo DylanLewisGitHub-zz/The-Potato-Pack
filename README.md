@@ -10,10 +10,7 @@ The Potato Pack is a data pack for Minecraft: Java Edition that adds new content
 :warning: The Potato Pack has had a lot of time to shape up lately, but the project is still in early development. You may run into minor issues while using it. Additionally, there will be an ever-growing list of incompatibilities with other data packs.
 
 ---
-
 ## Installation
-
-You will need Minecraft 1.18 or higher to use this data pack.
 
 #### Stable releases
 
@@ -38,7 +35,6 @@ unless you know what you are doing and are comfortable with software debugging. 
 we will expect that this is the case. Caveat emptor.
 
 ---
-
 ### Reporting Issues
 
 You can report bugs and crashes by opening an issue on our [issue tracker](https://github.com/DylanLewisGitHub/The-Potato-Pack/issues).
