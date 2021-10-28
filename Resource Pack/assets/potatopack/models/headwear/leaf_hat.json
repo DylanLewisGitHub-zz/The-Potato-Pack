@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/overlay_only_template",
+  "textures": {
+    "0": "minecraft:entity/villager/type/swamp"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 12.5, 0],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	}
+}

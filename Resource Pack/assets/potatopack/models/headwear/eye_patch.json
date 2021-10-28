@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "minecraft:entity/villager/profession/weaponsmith"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 16, 0],
+			"scale": [1.75, 1.75, 1.75]
+		}
+	}
+}

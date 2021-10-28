@@ -1,0 +1,6 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "minecraft:entity/villager/profession/farmer"
+  }
+}

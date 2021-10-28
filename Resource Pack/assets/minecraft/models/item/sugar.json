@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/sugar"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 0
+    },
+    "model": "minecraft:item/sugar"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 1
+	 },
+	 "model": "potatopack:item/empty"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 2
+	 },
+	 "model": "potatopack:item/crystallised_honey"
+  }]
+}

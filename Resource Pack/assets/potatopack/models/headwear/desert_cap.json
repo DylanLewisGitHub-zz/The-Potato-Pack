@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "minecraft:entity/villager/type/desert"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 16, 0],
+			"scale": [1.805, 1.805, 1.805]
+		}
+	}
+}

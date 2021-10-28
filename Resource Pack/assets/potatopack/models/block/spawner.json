@@ -1,0 +1,22 @@
+{
+	"credit": "Model by Dylan The Spud",
+	"textures": {
+		"0": "chillager:block/spawner",
+		"particle": "chillager:block/spawner"
+	},
+	"elements": [
+		{
+			"name": "Spawner",
+			"from": [-4, -4, -4],
+			"to": [20, 20, 20],
+			"faces": {
+				"north": {"uv": [3, 3, 6, 6], "texture": "#0"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#0"},
+				"south": {"uv": [9, 3, 12, 6], "texture": "#0"},
+				"west": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"up": {"uv": [3, 0, 6, 3], "texture": "#0"},
+				"down": {"uv": [6.125, 0, 9.125, 3], "texture": "#0"}
+			}
+		}
+	]
+}

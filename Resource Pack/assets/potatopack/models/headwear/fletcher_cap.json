@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "minecraft:entity/villager/profession/fletcher"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 15, 0],
+			"scale": [1.805, 1.805, 1.805]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/egg"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 0
+    },
+    "model": "minecraft:item/egg"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 1
+	 },
+	 "model": "potatopack:item/empty"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 2
+	 },
+	 "model": "potatopack:block/chieftain_banner"
+  }]
+}

@@ -1,0 +1,46 @@
+{
+	"credit": "Model by Dylan The Spud",
+	"parent": "block/block",
+	"textures": {
+		"0": "potatopack:block/etching_table_bottom",
+		"1": "potatopack:block/etching_table_side",
+		"2": "potatopack:block/etching_table_top",
+		"particle": "potatopack:block/etching_table_top"
+	},
+	"elements": [
+		{
+			"name": "Table",
+			"from": [2, 0, 2],
+			"to": [14, 6, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"east": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"south": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"west": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#2"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Tone Arm",
+			"from": [4, 6, 7],
+			"to": [4, 8, 14],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 6, 12]},
+			"faces": {
+				"north": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"east": {"uv": [0, 6, 7, 8], "texture": "#1"},
+				"south": {"uv": [2, 10, 14, 16], "texture": "#1"},
+				"west": {"uv": [7, 8, 14, 10], "texture": "#1"},
+				"up": {"uv": [2, 2, 2, 7], "texture": "#1"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -31, 0],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
+}

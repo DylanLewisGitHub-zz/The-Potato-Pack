@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/flower_banner_pattern"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 840000
+      },
+      "model": "potatopack:headwear/book_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840001
+      },
+      "model": "potatopack:headwear/desert_cap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840002
+      },
+      "model": "potatopack:headwear/enchanter_turban"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840003
+      },
+      "model": "potatopack:headwear/eye_patch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840004
+      },
+      "model": "potatopack:headwear/fishing_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840005
+      },
+      "model": "potatopack:headwear/fletcher_cap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840006
+      },
+      "model": "potatopack:headwear/leaf_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840007
+      },
+      "model": "potatopack:headwear/monocle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840008
+      },
+      "model": "potatopack:headwear/paleontologist_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840009
+      },
+      "model": "potatopack:headwear/ribbon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840010
+      },
+      "model": "potatopack:headwear/shepherd_cap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840011
+      },
+      "model": "potatopack:headwear/straw_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840012
+      },
+      "model": "potatopack:headwear/visor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840013
+      },
+      "model": "potatopack:headwear/winter_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840014
+      },
+      "model": "potatopack:headwear/witch_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840015
+      },
+      "model": "potatopack:headwear/wreath"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 840016
+      },
+      "model": "potatopack:headwear/wildfire_helmet"
+    }
+  ]
+}

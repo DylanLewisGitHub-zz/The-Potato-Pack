@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/armor_stand"
+  },
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 0
+    },
+    "model": "minecraft:item/armor_stand"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 1
+	 },
+	 "model": "potatopack:item/empty"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 2
+	 },
+	 "model": "potatopack:block/totem_of_shielding"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 3
+	 },
+	 "model": "potatopack:item/chieftain_banner"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 4
+	 },
+	 "model": "potatopack:item/slime_bucket"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 5
+	 },
+	 "model": "potatopack:item/slime_bucket_excited"
+  }]
+}

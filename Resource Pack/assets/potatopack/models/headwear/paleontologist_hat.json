@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "dnd:entity/villager/profession/paleontologist"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 14, 0],
+			"scale": [1.805, 1.805, 1.805]
+		}
+	}
+}

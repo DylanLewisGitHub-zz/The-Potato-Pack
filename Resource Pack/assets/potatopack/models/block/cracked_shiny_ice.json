@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "potatopack:block/cracked_shiny_ice"
+  }
+}

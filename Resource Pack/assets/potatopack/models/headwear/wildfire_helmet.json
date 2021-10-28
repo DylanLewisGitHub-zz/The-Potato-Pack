@@ -1,0 +1,57 @@
+{
+	"credit": "Model by Dylan The Spud",
+	"textures": {
+		"0": "potatopack:entity/wildfire",
+		"particle": "potatopack:entity/wildfire"
+	},
+	"elements": [
+		{
+			"name": "Helmet",
+			"from": [4, 4, 4],
+			"to": [12, 12, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, -5, 4]},
+			"faces": {
+				"north": {"uv": [10, 2.5, 12, 4.5], "texture": "#0"},
+				"east": {"uv": [8, 2.5, 10, 4.5], "texture": "#0"},
+				"south": {"uv": [14, 2.5, 16, 4.5], "texture": "#0"},
+				"west": {"uv": [12, 2.5, 14, 4.5], "texture": "#0"},
+				"up": {"uv": [10, 0, 12, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Helmet",
+			"from": [4, 12, 4],
+			"to": [12, 14, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, -2, 4]},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 2.5], "texture": "#0"},
+				"east": {"uv": [8, 2, 10, 2.5], "texture": "#0"},
+				"south": {"uv": [14, 2, 16, 2.5], "texture": "#0"},
+				"west": {"uv": [12, 2, 14, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, -125, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"scale": [1.75, 1.75, 1.75]
+		},
+		"fixed": {
+			"translation": [0, 0, 1.5]
+		}
+	}
+}

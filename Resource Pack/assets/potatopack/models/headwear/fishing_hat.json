@@ -1,0 +1,12 @@
+{
+	"parent": "potatopack:headwear/template",
+  "textures": {
+    "0": "minecraft:entity/villager/profession/fisherman"
+  },
+	"display": {
+		"head": {
+			"translation": [0, 14, 0],
+			"scale": [1.805, 1.805, 1.805]
+		}
+	}
+}

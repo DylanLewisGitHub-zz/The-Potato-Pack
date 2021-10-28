@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:block/command_block",
+  "overrides": [{
+    "predicate": {
+      "custom_model_data": 0
+    },
+    "model": "minecraft:item/command_block"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 1
+	 },
+	 "model": "potatopack:item/empty"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 2
+	 },
+	 "model": "potatopack:item/depth_meter"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 3
+	 },
+	 "model": "potatopack:item/depth_meter_caves"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 4
+	 },
+	 "model": "potatopack:item/depth_meter_lava"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 5
+	 },
+	 "model": "potatopack:item/depth_meter_sky"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 6
+	 },
+	 "model": "potatopack:item/depth_meter_void"
+  },
+  {
+	 "predicate":{
+		 "custom_model_data": 7
+	 },
+	 "model": "potatopack:item/hoglin_hide"
+  }]
+}

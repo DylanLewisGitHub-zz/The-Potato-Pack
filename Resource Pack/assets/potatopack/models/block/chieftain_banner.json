@@ -1,0 +1,73 @@
+{
+	"credit": "Model by Dylan The Spud",
+	"textures": {
+		"0": "potatopack:block/chieftain_banner"
+	},
+	"elements": [
+		{
+			"name": "Post",
+			"from": [6, -16, 6],
+			"to": [10, -5, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, -2]},
+			"faces": {
+				"north": {"uv": [3, 1.75, 4, 4.5], "texture": "#0"},
+				"east": {"uv": [2, 1.75, 3, 4.5], "texture": "#0"},
+				"south": {"uv": [5, 1.75, 6, 4.5], "texture": "#0"},
+				"west": {"uv": [4, 1.75, 5, 4.5], "texture": "#0"},
+				"up": {"uv": [3, 0.75, 4, 1.75], "texture": "#0"},
+				"down": {"uv": [4, 0.75, 5, 1.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Post",
+			"from": [7, -5, 7],
+			"to": [9, 24, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -17.5, 7]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 1, 7.75], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 7.75], "texture": "#0"},
+				"south": {"uv": [1.5, 0.5, 2, 7.75], "texture": "#0"},
+				"west": {"uv": [1, 0.5, 1.5, 7.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Post",
+			"from": [6, 24, -8],
+			"to": [10, 28, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, -2, -9]},
+			"faces": {
+				"north": {"uv": [6.5, 4.5, 7.5, 5.5], "texture": "#0"},
+				"east": {"uv": [2, 4.5, 6.5, 5.5], "texture": "#0"},
+				"south": {"uv": [12, 4.5, 13, 5.5], "texture": "#0"},
+				"west": {"uv": [7.5, 4.5, 12, 5.5], "texture": "#0"},
+				"up": {"uv": [6.5, 0, 7.5, 4.5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 8.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Banner",
+			"from": [8, 1, -7],
+			"to": [8, 24, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 0]},
+			"faces": {
+				"east": {"uv": [2, 5.5, 5.5, 11.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Banner",
+			"from": [8, 1, -7],
+			"to": [8, 24, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 0]},
+			"faces": {
+				"east": {"uv": [2, 5.5, 5.5, 11.25], "texture": "#0"},
+				"west": {"uv": [5.5, 5.5, 2, 11.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -4.5, 12],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
+}

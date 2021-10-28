@@ -1,0 +1,38 @@
+{
+	"credit": "Model by Dylan The Spud",
+	"textures": {
+		"0": "potatopack:block/kiln_front_lit",
+		"1": "potatopack:block/kiln_side",
+		"2": "potatopack:block/kiln_top",
+		"3": "potatopack:block/kiln_bottom",
+		"particle": "potatopack:block/kiln_front_lit"
+	},
+	"elements": [
+		{
+			"name": "Kiln",
+			"from": [-8, -8, -8],
+			"to": [24, 24, 24],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 2.5]
+		},
+		"head": {
+			"translation": [0, -18, 0],
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"fixed": {
+			"translation": [0, 0, -15]
+		}
+	}
+}

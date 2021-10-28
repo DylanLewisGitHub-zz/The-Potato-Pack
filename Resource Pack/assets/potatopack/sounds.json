@@ -1,0 +1,61 @@
+{
+  "block.shiny_ice.ambient": {
+    "sounds": [
+      "potatopack:block/shiny_ice1"
+    ],
+    "subtitle": "subtitle.potatopack.block.shiny_ice.ambient"
+  },
+  "entity.chillager.attack": {
+    "sounds": [
+      "potatopack:entity/chillager/attack/attack1",
+	  "potatopack:entity/chillager/attack/attack2",
+	  "potatopack:entity/chillager/attack/attack3"
+    ],
+    "subtitle": "subtitle.potatopack.entity.chillager.attack"
+  },
+  "entity.chillager.death": {
+    "sounds": [
+      "potatopack:entity/chillager/death/death1",
+      "potatopack:entity/chillager/death/death2",
+      "potatopack:entity/chillager/death/death3"
+    ],
+    "subtitle": "subtitle.potatopack.entity.chillager.death"
+  },
+  "entity.chillager.hurt": {
+    "sounds": [
+      "potatopack:entity/chillager/hurt/hurt1",
+      "potatopack:entity/chillager/hurt/hurt2",
+      "potatopack:entity/chillager/hurt/hurt3"
+    ],
+    "subtitle": "subtitle.potatopack.entity.chillager.hurt"
+  },
+  "entity.chillager.idle": {
+    "sounds": [
+      "potatopack:entity/chillager/idle/idle1",
+	  "potatopack:entity/chillager/idle/idle2",
+	  "potatopack:entity/chillager/idle/idle3"
+    ],
+    "subtitle": "subtitle.potatopack.entity.chillager.idle"
+  },
+  "entity.falling_ice.break": {
+    "sounds": [
+      "potatopack:entity/falling_ice/break1",
+      "potatopack:entity/falling_ice/break2"
+    ],
+    "subtitle": "subtitle.potatopack.entity.falling_ice.break"
+  },
+  "entity.falling_ice.form": {
+    "sounds": [
+      "potatopack:entity/falling_ice/form1"
+    ],
+    "subtitle": "subtitle.potatopack.entity.falling_ice.form"
+  },
+  "entity.forming_ice.form": {
+    "sounds": [
+      "potatopack:entity/forming_ice/form1",
+	  "potatopack:entity/forming_ice/form2",
+	  "potatopack:entity/forming_ice/form3"
+    ],
+    "subtitle": "subtitle.potatopack.entity.forming_ice.form"
+  }
+}
