@@ -17,20 +17,18 @@ You will need Minecraft 1.18 or higher to use this data pack.
 
 #### Stable releases
 
-![GitHub release](https://img.shields.io/github/release/CaffeineMC/sodium-fabric.svg)
+![GitHub release](https://img.shields.io/github/release/DylanLewisGitHub/The-Potato-Pack.svg)
 
-The latest releases of Sodium are published to our [Modrinth](https://modrinth.com/mod/sodium) and
-[GitHub release](https://github.com/CaffeineMC/sodium-fabric/releases) pages. Releases are considered by our team to be
+The latest releases of Sodium are published to our [Data Pack Center]https://datapackcenter.com/projects/the-potato-pack.326/), [Planet Minecraft](), [CurseForge](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack/files), and
+[GitHub release](https://github.com/CaffeineMC/sodium-fabric/releases) pages. Releases are considered to be
 **suitable for general use**, but they are not guaranteed to be free of bugs and other issues.
 
 Usually, releases will be made available on GitHub slightly sooner than other locations.
 
 #### Bleeding-edge builds (unstable)
 
-[![GitHub build status](https://img.shields.io/github/workflow/status/CaffeineMC/sodium-fabric/gradle-ci/1.17.x/dev)](https://github.com/CaffeineMC/sodium-fabric/actions/workflows/gradle.yml)
-
 If you are a player who is looking to get your hands on the latest **bleeding-edge changes for testing**, consider
-taking a look at the automated builds produced through our [GitHub Actions workflow](https://github.com/CaffeineMC/sodium-fabric/actions/workflows/gradle.yml?query=event%3Apush).
+taking a look at the automated builds produced through the [GitHub Actions workflow](https://github.com/DylanLewisGitHub/The-Potato-Pack/actions).
 This workflow automatically runs every time a change is pushed to the repository, and as such, the builds it produces
 will generally reflect the latest snapshot of development.
 
@@ -38,10 +36,6 @@ Bleeding edge builds will often include unfinished code that hasn't been extensi
 incomplete features, bugs, crashes, and all other kinds of weird issues. You **should not use these bleeding edge builds**
 unless you know what you are doing and are comfortable with software debugging. If you report issues using these builds,
 we will expect that this is the case. Caveat emptor.
-
-### CurseForge
-
-[![CurseForge downloads](http://cf.way2muchnoise.eu/full_394468_downloads.svg)](https://www.curseforge.com/minecraft/customization/the-potato-pack-data-pack)
 
 ---
 
@@ -67,5 +61,5 @@ We have an [official Discord community](https://discord.gg/mGVvUHRNUR) for all o
 ---
 ### License
 
-The Potato Pack is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the
-[license file](https://github.com/CaffeineMC/sodium-fabric/blob/1.16.x/dev/LICENSE.txt).
+The Potato Pack is licensed under GNU GPLv3, a free and open-source license. For more information, please see the
+[license file](https://github.com/DylanLewisGitHub/The-Potato-Pack/LICENSE.txt).
