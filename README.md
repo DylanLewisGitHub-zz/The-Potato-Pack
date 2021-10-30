@@ -52,7 +52,7 @@ I have a [Discord server](https://discord.gg/mGVvUHRNUR) for all of my projects.
 - Get technical support with all of my projects
 - Be notified of the latest developments as they happen
 - Get involved and collaborate
-- ... and just hang out with the rest of the community.
+- ... and just hang out with the rest of the community
 
 ---
 ### License
