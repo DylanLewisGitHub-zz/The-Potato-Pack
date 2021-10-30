@@ -1,24 +1,11 @@
 [
   {
     "condition": "minecraft:reference",
-    "name": "potatopack:entity/zombie/adult_with_armor"
+    "name": "potatopack:entity/zombie/adult_with_headwear"
   },
   {
-    "condition": "minecraft:alternative",
-    "terms": [
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "biome": "minecraft:plains"
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "biome": "minecraft:sunflower_plains"
-        }
-      }
-    ]
+    "condition": "minecraft:reference",
+    "name": "potatopack:location_check/biome_group/plains"
   },
   {
     "condition": "minecraft:random_chance",

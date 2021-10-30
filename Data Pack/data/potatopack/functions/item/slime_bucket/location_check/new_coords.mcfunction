@@ -1,7 +1,8 @@
 tag @s remove potatopack.item.slime_bucket.new_coords
+tag @s add potatopack.item.slime_bucket.modify
 
 # Gets the chunk position
-function potatopack:entity/location_check/chunk_xz
+function potatopack:technical/location_check/chunk_xz
 
 # Compares chunk X and Z position to position stored last tick. If chunk X or Z position are different, checks if you're in a Slime Chunk
 execute unless score @s potatopack.chunk.x = @s potatopack.chunk.x_stored run tag @s add potatopack.item.slime_bucket.new_chunk

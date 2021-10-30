@@ -18,16 +18,11 @@
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:value_check",
-                  "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                      "type": "minecraft:fixed",
-                      "name": "hidePackName"
-                    },
-                    "score": "potatopack.config"
-                  },
-                  "range": 0
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:reference",
+                    "name": "potatopack:config/hide_pack_name"
+                  }
                 }
               ]
             },
@@ -35,14 +30,14 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "translate": "item.villagerhats.headwear.leaf_hat",
+                "translate": "item.potatopack.headwear.leaf_hat",
                 "color": "white",
                 "italic": false
               }
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:38,AttributeModifiers:[],CustomModelData:840006,villagerhats:{id:\"headwear\",headwear:\"leaf_hat\"}}"
+              "tag": "{HideFlags:38,AttributeModifiers:[],CustomModelData:840006,potatopack:{id:\"headwear\",headwear:\"leaf_hat\"}}"
             }
           ]
         }

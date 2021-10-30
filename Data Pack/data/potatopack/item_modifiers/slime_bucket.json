@@ -1,0 +1,109 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:5}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:4}",
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:item/slime_bucket/banned_locations"
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "potatopack.slime_chunk_check.result": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "potatopack.slime_chunk_check.result": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.potatopack.slime_bucket.not_in_slime_chunk",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:item/slime_bucket/banned_locations"
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "potatopack.slime_chunk_check.result": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/hide_pack_name"
+        }
+      }
+    ]
+  }
+]

@@ -9,11 +9,10 @@
           "functions": [
             {
               "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
-                 {
+                {
                   "translate": "pack.collaboration",
-                  "italic": true,
-                  "color": "white",
                   "with": [
                     {
                       "translate": "pack.potatopack",
@@ -25,21 +24,18 @@
                       "color": "#008725",
                       "italic": true
                     }
-                  ]
+                  ],
+                  "color": "white",
+                  "italic": true
                 }
               ],
               "conditions": [
                 {
-                  "condition": "minecraft:value_check",
-                  "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                      "type": "minecraft:fixed",
-                      "name": "hidePackName"
-                    },
-                    "score": "potatopack.config"
-                  },
-                  "range": 0
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:reference",
+                    "name": "potatopack:config/hide_pack_name"
+                  }
                 }
               ]
             },

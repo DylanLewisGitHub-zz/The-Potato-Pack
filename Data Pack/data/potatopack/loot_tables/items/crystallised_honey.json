@@ -28,16 +28,11 @@
               "replace": true,
               "conditions": [
                 {
-                  "condition": "minecraft:value_check",
-                  "value": {
-                    "type": "minecraft:score",
-                    "target": {
-                      "type": "minecraft:fixed",
-                      "name": "hidePackNames"
-                    },
-                    "score": "potatopack.config"
-                  },
-                  "range": 0
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:reference",
+                    "name": "potatopack:config/hide_pack_name"
+                  }
                 }
               ]
             },

@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/biome/plains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/biome/sunflower_plains"
+    }
+  ]
+}

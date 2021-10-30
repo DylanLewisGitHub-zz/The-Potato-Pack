@@ -1,12 +1,10 @@
 [
   {
     "condition": "minecraft:reference",
-    "name": "potatopack:entity/zombie/adult_with_armor"
+    "name": "potatopack:entity/zombie/adult_with_headwear"
   },
   {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "biome": "minecraft:meadow"
-    }
+    "condition": "minecraft:reference",
+    "name": "potatopack:location_check/biome/meadow"
   }
 ]

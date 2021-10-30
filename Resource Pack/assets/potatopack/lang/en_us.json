@@ -1,7 +1,7 @@
 {
   "pack.potatopack": "The Potato Pack",
   "pack.collaboration": "%s + %s",
-  "potatopack.load": "The Potato Pack has successfully loaded!",
+  "potatopack.load": "The Potato Pack has successfully loaded! Remember to use the Slime Chunk Calculator packaged with this data pack so the Slime Chunk Check can function properly",
 
   "advancements.adventure.jack_of_all_trades.title": "Jack of all Trades",
   "advancements.adventure.jack_of_all_trades.description": "Trade for every profession's headwear",
@@ -19,8 +19,6 @@
   "item.potatopack.depth_meter.at_sea_level": "You are at sea level",
   "item.potatopack.depth_meter.block_below_sea_level": "1 block below sea level",
   "item.potatopack.depth_meter.blocks_below_sea_level": " blocks below sea level",
-  "item.potatopack.depth_meter.in_end": "You are in the End",
-  "item.potatopack.depth_meter.in_void": "You are in the Void",
   
   "item.potatopack.headwear.book_hat": "Book Hat",
   "item.potatopack.headwear.desert_cap": "Desert Cap",
@@ -43,7 +41,7 @@
   "item.potatopack.hoglin_hide": "Hoglin Hide",
   "item.potatopack.peat": "Peat",
   
-  "item.potatopack.slime_bucket": "Slime Bucket",
+  "item.potatopack.slime_bucket": "Bucket of Slime",
   "item.potatopack.slime_bucket.in_slime_chunk": "You are in a Slime Chunk",
   "item.potatopack.slime_bucket.not_in_slime_chunk": "You are not in a Slime Chunk",
 
@@ -62,5 +60,8 @@
   "filled_map.located_surface_structure": "Located Surface Structure",
   "filled_map.located_structure": "Located Structure",
   "filled_map.located_igloo": "Located Igloo",
-  "filled_map.located_hut": "Located Hut"
+  "filled_map.located_hut": "Located Hut",
+  
+  "potatopack.in_nether": "You are in the Nether",
+  "potatopack.in_end": "You are in the End"
 }

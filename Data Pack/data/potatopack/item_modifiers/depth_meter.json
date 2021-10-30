@@ -1,0 +1,282 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:2}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/ground"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:3}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/cave"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:4}",
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:item/depth_meter/modify_visual/lava"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:location_check/dimension/the_nether"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:5}",
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:item/depth_meter/modify_visual/sky"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:6}",
+    "conditions": [
+      {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:location_check/dimension/the_end"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "potatopack:location_check/biome/the_void"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "potatopack.in_end",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/dimension/the_end"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_above_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/distance_from_sea_level/several_blocks_above_sea_level/any"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_above_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/distance_from_sea_level/block_above_sea_level/any"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.at_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/distance_from_sea_level/at_sea_level/any"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.potatopack.depth_meter.block_below_sea_level",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/distance_from_sea_level/block_below_sea_level/any"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.blocks_from_sea_level"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "translate": "item.potatopack.depth_meter.blocks_below_sea_level",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/toggle_depth_meter"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:location_check/distance_from_sea_level/several_blocks_below_sea_level/any"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Y:",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "potatopack.position.y"
+          }
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:config/toggle_depth_meter"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "pack.potatopack",
+        "color": "aqua",
+        "italic": true
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "potatopack:config/hide_pack_name"
+        }
+      }
+    ]
+  }
+]

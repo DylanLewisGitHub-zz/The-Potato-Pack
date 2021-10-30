@@ -1,7 +1,7 @@
 ####################################################################
 # IMPORTANT: Specify the world seed BEFORE using the Slime Chunk Check
-scoreboard players set seedHigh potatopack.slime_chunk_check.math 0
-scoreboard players set seedLow potatopack.slime_chunk_check.math 0
+scoreboard players set seedHigh potatopack.slime_chunk_check.math -24753437
+scoreboard players set seedLow potatopack.slime_chunk_check.math -1651617033
 ####################################################################
 
 # Hide pack names in item tooltips (0: False, 1: True)

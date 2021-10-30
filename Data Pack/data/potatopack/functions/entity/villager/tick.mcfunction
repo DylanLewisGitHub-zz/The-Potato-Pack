@@ -1,2 +1,2 @@
-execute as @s[predicate=potatopack:entity/villager/can_offer_biome_headwear] run function potatopack:entity/villager/level_2_trades
-execute as @s[predicate=potatopack:entity/villager/can_offer_profession_headwear] run function potatopack:entity/villager/level_5_trades
+execute as @s[tag=!potatopack.entity.villager.made_level_2_trades,predicate=potatopack:entity/villager/can_offer_biome_headwear] run function potatopack:entity/villager/level_2_trades
+execute as @s[tag=!potatopack.entity.villager.made_level_5_trades,predicate=potatopack:entity/villager/can_offer_profession_headwear] run function potatopack:entity/villager/level_5_trades

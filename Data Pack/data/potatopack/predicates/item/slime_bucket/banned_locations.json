@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/biome/mushroom_fields"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/biome/the_void"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/dimension/the_nether"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "potatopack:location_check/dimension/the_end"
+    }
+  ]
+}

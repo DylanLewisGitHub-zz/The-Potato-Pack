@@ -13,27 +13,11 @@
     }
   },
   {
-    "condition": "minecraft:alternative",
-    "terms": [
-      {
-        "condition": "minecraft:inverted",
-        "term": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "items": [
-                  "minecraft:filled_map"
-                ]
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:inverted",
-        "term": {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
@@ -43,8 +27,19 @@
               }
             }
           }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{potatopack:{id:\"slime_bucket\"}}"
+              }
+            }
+          }
         }
-      }
-    ]
+      ]
+    }
   }
 ]

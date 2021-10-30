@@ -1,0 +1,1 @@
+execute unless block ~ ~-1 ~ #minecraft:dirt run tp @s ~ -512 ~

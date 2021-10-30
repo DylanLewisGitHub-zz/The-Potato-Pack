@@ -1,13 +1,11 @@
 [
   {
     "condition": "minecraft:reference",
-    "name": "potatopack:entity/zombie/adult_with_armor"
+    "name": "potatopack:entity/zombie/adult_with_headwear"
   },
   {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "biome": "minecraft:flower_forest"
-    }
+    "condition": "minecraft:reference",
+    "name": "potatopack:location_check/biome/flower_forest"
   },
   {
     "condition": "minecraft:random_chance",

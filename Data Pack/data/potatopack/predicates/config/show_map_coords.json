@@ -1,0 +1,36 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "showMapCoords"
+      },
+      "score": "potatopack.config"
+    },
+    "range": 1
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:filled_map"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "potatopack:entity/player/offhand_map"
+      }
+    ]
+  }
+]

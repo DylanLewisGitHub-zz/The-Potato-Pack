@@ -1,5 +1,5 @@
 # Gets X and Z position
-function potatopack:entity/location_check/position_xz
+function potatopack:technical/location_check/position_xz
 
 # Compares X and Z position to position stored last tick. If X or Z position are different, checks if you're in a new chunk
 execute unless score @s potatopack.position.x = @s potatopack.position.x_stored run tag @s add potatopack.item.slime_bucket.new_coords

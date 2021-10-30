@@ -25,7 +25,7 @@
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "potatopack:location_check/biome/jungles"
+              "name": "potatopack:location_check/biome_group/jungles"
             }
           ]
         },

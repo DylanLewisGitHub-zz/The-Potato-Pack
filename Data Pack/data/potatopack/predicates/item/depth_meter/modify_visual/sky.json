@@ -10,6 +10,6 @@
   },
   {
     "condition": "minecraft:reference",
-    "name": "potatopack:entity/location/overworld/in_dimension"
+    "name": "potatopack:location_check/dimension/overworld"
   }
 ]
