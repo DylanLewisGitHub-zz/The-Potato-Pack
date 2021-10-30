@@ -1,4 +1,4 @@
-<img src="Resource Pack/pack.png" width="128">
+![The Potato Pack](https://i.imgur.com/QFYSpX7.png)
 
 # The Potato Pack
 ![GitHub license](https://img.shields.io/github/license/DylanLewisGitHub/The-Potato-Pack.svg)
@@ -52,7 +52,7 @@ I have a [Discord server](https://discord.gg/mGVvUHRNUR) for all of my projects.
 - Get technical support with all of my projects
 - Be notified of the latest developments as they happen
 - Get involved and collaborate
-- ... and just hang out with the rest of the community
+- ... and just hang out with the rest of the community.
 
 ---
 ### License
