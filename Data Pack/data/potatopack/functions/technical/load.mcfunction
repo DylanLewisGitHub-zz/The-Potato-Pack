@@ -60,5 +60,5 @@ scoreboard players set #2^31 potatopack.slime_chunk_check.math -2147483648
 
 # Finishing
 gamerule reducedDebugInfo true
-playsound minecraft:entity.arrow.hit_player master @a[gamemode=!survival] ~ ~ ~ 2 1 1
-tellraw @a[gamemode=!survival] {"translate":"potatopack.load"}
+playsound minecraft:entity.arrow.hit_player master @a[gamemode=!survival,gamemode=!adventure] ~ ~ ~ 2 1 1
+tellraw @a[gamemode=!survival,gamemode=!adventure] {"translate":"potatopack.load"}
