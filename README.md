@@ -37,7 +37,7 @@ we will expect that this is the case. Caveat emptor.
 ---
 ### Reporting Issues
 
-You can report bugs and crashes by opening an issue on our [issue tracker](https://github.com/DylanLewisGitHub/The-Potato-Pack/issues).
+You can report bugs and crashes by opening an issue on the [issue tracker](https://github.com/DylanLewisGitHub/The-Potato-Pack/issues).
 Before opening a new issue, use the search tool to make sure that your issue has not already been reported and ensure
 that you have completely filled out the issue template. Issues that are duplicates or do not contain the necessary
 information to triage and debug may be closed. 
