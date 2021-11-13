@@ -1,6 +1,5 @@
-<img src="Resource Pack/pack.png" width="128">
+![The Potato Pack](https://i.imgur.com/QFYSpX7.png)
 
-# The Potato Pack
 ![GitHub license](https://img.shields.io/github/license/DylanLewisGitHub/The-Potato-Pack.svg)
 ![GitHub issues](https://img.shields.io/github/issues/DylanLewisGitHub/The-Potato-Pack.svg)
 ![GitHub tag](https://img.shields.io/github/tag/DylanLewisGitHub/The-Potato-Pack.svg)
